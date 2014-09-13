@@ -1,0 +1,9 @@
+Building Termocoin
+
+See doc/readme-qt.rst for instructions on building Termocoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Termocoin.
+
+See doc/build-*.txt for instructions on building Termocoin,
+the intended-for-services, no-graphical-interface, reference
+implementation of Termocoin.
