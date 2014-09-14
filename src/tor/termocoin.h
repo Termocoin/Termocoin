@@ -13,10 +13,10 @@
 extern "C" {
 #endif
 
-    char const* razor_tor_data_directory(
+    char const* termocoin_tor_data_directory(
     );
 
-    char const* razor_service_directory(
+    char const* termocoin_service_directory(
     );
 
     int check_interrupted(

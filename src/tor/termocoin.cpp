@@ -3,7 +3,7 @@
    Copyright (c) 2013-2014 The Termocoin developers */
 /* See LICENSE for licensing information */
 
-#include "Termocoin.h"
+#include "termocoin.h"
 #include "util.h"
 
 #include <boost/filesystem.hpp>
@@ -12,7 +12,7 @@
 #include <string>
 #include <cstring>
 
-char const* razor_tor_data_directory(
+char const* termocoin_tor_data_directory(
 ) {
     static std::string const retrieved = (
         GetDataDir(
@@ -23,7 +23,7 @@ char const* razor_tor_data_directory(
     );
 }
 
-char const* razor_service_directory(
+char const* termocoin_service_directory(
 ) {
     static std::string const retrieved = (
         GetDataDir(
